@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #1c1c1c;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #000;
+}
+
+h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #ccc;
+    font-size: 17px;
+}
+
+.picture img {
+    width: 90%;
+    max-width: 600px;
+    margin-top: 20px;
+    border-radius: 15px;
+    border: 3px solid white;
+}
+
+.intro {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 25px 10px;
+}
+
+details {
+    margin-top: 25px;
+}
+
+summary {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #333;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+summary:hover {
+    background-color: #555;
+}
+
+.message {
+    margin-top: 25px;
+    padding: 25px;
+    background-color: #252525;
+    border-radius: 15px;
+    text-align: left;
+    line-height: 1.7;
+}
+
+.message p {
+    margin-bottom: 20px;
+}
+
+.music {
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    background-color: #181818;
+    border-radius: 15px;
+}
+
+.music h3 {
+    margin-bottom: 5px;
+}
+
+.music p {
+    color: #ccc;
+}
+
+audio {
+    width: 100%;
+    max-width: 500px;
+}
+
+footer {
+    margin-top: 30px;
+    color: #aaa;
+    font-size: 14px;
+}
